@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dark.Surfer.TabActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fbd2cfcf">
+
+            <RelativeLayout
+                android:id="@+id/cont"
+                android:layout_width="290dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#fbd2cfcf"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:id="@+id/hsv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fbd2cfcf"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:background="#fbd2cfcf"
+                        android:divider="@null" />
+
+                </HorizontalScrollView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layoutDirection="ltr">
+
+                <Button
+                    android:id="@+id/add_tab"
+                    android:layout_width="30dip"
+                    android:layout_height="30dip"
+                    android:background="@drawable/tabadd_bg" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+</TabHost>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/backward"
+        android:icon="@drawable/btn_left"
+        android:showAsAction="always"
+        android:title="Back"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/forward"
+        android:icon="@drawable/btn_right"
+        android:showAsAction="always"
+        android:title="Forward"
+        tools:ignore="AppCompatResource,HardcodedText" />
+    <item
+        android:gravity="top|center"
+        android:icon="@drawable/menu_bg"
+        android:showAsAction="always"
+        android:title="menu"
+        tools:ignore="AlwaysShowAction,AppCompatResource" />
+    <item
+        android:id="@+id/reload"
+        android:icon="@drawable/btn_toolbar_reload"
+        android:showAsAction="always"
+        android:title="Reload"
+        tools:ignore="AppCompatResource,HardcodedText" />
+    <item
+        android:id="@+id/homeitm"
+        android:icon="@drawable/btn_toolbar_home"
+        android:showAsAction="always"
+        android:title="Home"
+        tools:ignore="AppCompatResource,HardcodedText" />
+</menu>

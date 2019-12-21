@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context="com.example.dark.Surfer.History">
+
+    <TextView
+        android:id="@+id/historyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif-monospace"
+        android:text="History"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyTitle"
+        android:background="@drawable/listlayout_bg"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2sp"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/clearHistory"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/clearhistory_bg" />
+
+</RelativeLayout>

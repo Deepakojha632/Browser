@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dark.Surfer.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#f1f1f1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <!-- <Space
+             android:layout_width="2dp"
+             android:layout_height="30dp"
+             android:layout_weight="20" />-->
+
+        <EditText
+            android:id="@+id/urlAddr"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_weight="20"
+            android:background="@drawable/input_url"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="top"
+            android:hint="URL"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/stopLoading"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_weight="20"
+            android:background="@drawable/stopload_bg" />
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_weight="20"
+            android:background="@drawable/search_bg" />
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="100dip"
+            android:layout_height="35dp"
+            android:layout_weight="20"
+            android:background="@drawable/input_url"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="top"
+            android:hint="Search"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_weight="20"
+            android:background="@drawable/search_bg" />
+
+        <!--<Space
+            android:layout_width="20dip"
+            android:layout_height="40dip"
+            android:layout_weight="20" />-->
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/hpBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/titleBar"
+        android:background="#f1f1f1"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hpBar">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/srl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/wv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:scrollbars="none"></WebView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <RelativeLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/slider_bg"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:visibility="gone">
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Space
+                android:id="@+id/space1"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space" />
+
+            <Button
+                android:id="@+id/bookmark"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/space1"
+                android:background="@drawable/bookmark" />
+
+            <Space
+                android:id="@+id/space2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_below="@+id/space" />
+
+            <TextView
+                android:id="@+id/tvBookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/bookmark"
+                android:layout_below="@+id/bookmark"
+                android:layout_toRightOf="@+id/space2"
+                android:text="Bookmark"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space"
+                android:layout_toRightOf="@+id/bookmark" />
+
+            <Button
+                android:id="@+id/history"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space"
+                android:layout_toRightOf="@+id/space3"
+                android:background="@drawable/history_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/history"
+                android:layout_toRightOf="@+id/space3"
+                android:text="History"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/space"
+                android:layout_toRightOf="@+id/history" />
+
+            <CheckBox
+                android:id="@+id/desktop"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space"
+                android:layout_toRightOf="@+id/space4"
+                android:button="@drawable/desktop_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desktop"
+                android:layout_toRightOf="@+id/space4"
+                android:text="Desk Mode"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/space"
+                android:layout_toRightOf="@+id/desktop" />
+
+            <Button
+                android:id="@+id/closeTab"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space"
+                android:layout_toRightOf="@+id/space5"
+                android:background="@drawable/closetab_bg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/closeTab"
+                android:layout_toRightOf="@+id/space5"
+                android:text="Close Tab"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space6"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@id/tvBookmark" />
+
+            <CheckBox
+                android:id="@+id/inconito"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space6"
+                android:layout_toRightOf="@+id/space7"
+                android:button="@drawable/inconito_bg" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/inconito"
+                android:layout_toRightOf="@+id/space7"
+                android:text="Incognito"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space7"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space6" />
+
+            <Space
+                android:id="@+id/space8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/space6"
+                android:layout_toRightOf="@+id/inconito" />
+
+            <CheckBox
+                android:id="@+id/fullscrn"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space6"
+                android:layout_toRightOf="@+id/space8"
+                android:button="@drawable/fullscrn_bg" />
+
+            <TextView
+                android:id="@+id/tvFullscrn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullscrn"
+                android:layout_toRightOf="@+id/space8"
+                android:text="Fullscreen"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/space6"
+                android:layout_toRightOf="@+id/fullscrn" />
+
+            <Button
+                android:id="@+id/shareUrl"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/space6"
+                android:layout_toRightOf="@+id/space9"
+                android:background="@drawable/share_bg" />
+
+            <TextView
+                android:id="@+id/sharetextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shareUrl"
+                android:layout_toRightOf="@+id/space9"
+                android:text="Share URL"
+                android:textSize="10sp" />
+
+            <Space
+                android:id="@+id/space10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/space6"
+                android:layout_toRightOf="@+id/shareUrl" />
+
+            <Space
+                android:id="@+id/space11"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/sharetextView" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f1f1f1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Space
+            android:layout_width="10dip"
+            android:layout_height="30dip" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="20"
+            android:background="@drawable/back_bg" />
+
+        <Space
+            android:layout_width="20dip"
+            android:layout_height="30dip" />
+
+        <Button
+            android:id="@+id/forward"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_weight="20"
+            android:background="@drawable/forward_bg" />
+
+        <Space
+            android:layout_width="20dip"
+            android:layout_height="30dip" />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_weight="20"
+            android:background="@drawable/menu_bg" />
+
+        <Space
+            android:layout_width="10dip"
+            android:layout_height="30dip" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_weight="20"
+            android:background="@drawable/home" />
+
+        <Space
+            android:layout_width="10dip"
+            android:layout_height="30dip" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_weight="20"
+            android:background="@drawable/exit_bg" />
+
+        <Space
+            android:layout_width="30dip"
+            android:layout_height="30dip" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

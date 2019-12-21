@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:showAsAction="always"
+        android:title="search"
+        tools:ignore="AppCompatResource"
+        tools:targetApi="lollipop" />
+    <item
+        android:id="@+id/back"
+        android:title="Back"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/forward"
+        android:title="Forward"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/newTab"
+        android:title="New Tab"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        android:title="History"
+        tools:ignore="HardcodedText" />
+
+</menu>

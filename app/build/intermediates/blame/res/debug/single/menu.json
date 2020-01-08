@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dark.Surfer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="24" />
+9-->[com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Deepak\.gradle\caches\transforms-2\files-2.1\cb20b76ed225fe8217fdebe6b4cd159d\constraint-layout-1.0.2\AndroidManifest.xml:7:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_GPS" />
+13-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:7:5-69
+13-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:7:22-66
+14    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+14-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:8:5-78
+14-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:8:22-75
+15    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+15-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:9:5-74
+15-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+18-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:12:5-76
+18-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:12:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:14:5-80
+20-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+21-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:15:5-94
+21-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:15:22-91
+22    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+22-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:16:5-93
+22-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:16:22-90
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:17:5-75
+23-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:17:22-72
+24
+25    <application
+25-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:19:5-65:19
+26        android:allowBackup="true"
+26-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:20:9-35
+27        android:debuggable="true"
+28        android:hardwareAccelerated="true"
+28-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:21:9-43
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:22:9-43
+30        android:label="@string/app_name"
+30-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:23:9-41
+31        android:screenOrientation="portrait"
+31-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:24:9-45
+32        android:theme="@style/AppTheme"
+32-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:25:9-40
+33        android:windowSoftInputMode="adjustPan" >
+33-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:26:9-48
+34        <activity android:name="com.example.dark.Surfer.MainActivity" >
+34-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:27:9-33:20
+34-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:27:19-70
+35            <intent-filter>
+35-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:28:13-32:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:17-69
+36-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:25-66
+37
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:31:17-76
+38-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:31:27-73
+39            </intent-filter>
+40        </activity>
+41
+42        <receiver android:name="com.example.dark.Surfer.ConnectionBroadReceiver" >
+42-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:35:9-39:20
+42-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:35:19-81
+43            <intent-filter>
+43-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:36:13-38:29
+44                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+44-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:37:17-79
+44-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:37:25-76
+45            </intent-filter>
+46        </receiver>
+47
+48        <activity
+48-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:41:9-50:20
+49            android:name="com.example.dark.Surfer.TabActivity"
+49-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:42:13-63
+50            android:theme="@style/AppTheme"
+50-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:43:13-44
+51            android:windowSoftInputMode="adjustPan" >
+51-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:44:13-52
+52            <intent-filter>
+52-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:45:13-49:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:17-69
+53-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:48:17-77
+55-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:48:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.example.dark.Surfer.WebViewActivity" >
+58-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:51:9-57:20
+58-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:51:19-73
+59            <intent-filter>
+59-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:28:13-32:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:17-69
+60-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:29:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:31:17-76
+62-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:31:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:58:9-60:66
+66            android:name="com.example.dark.Surfer.AddBookmark"
+66-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:59:13-63
+67            android:theme="@style/Theme.AppCompat.NoActionBar" />
+67-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:60:13-63
+68        <activity
+68-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:61:9-63:66
+69            android:name="com.example.dark.Surfer.History"
+69-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:62:13-59
+70            android:theme="@style/Theme.AppCompat.NoActionBar" />
+70-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:63:13-63
+71        <activity android:name="com.example.dark.Surfer.Splash" />
+71-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:64:9-67
+71-->D:\Software\Android\AndroidProjects\Web\app\src\main\AndroidManifest.xml:64:19-64
+72    </application>
+73
+74</manifest>

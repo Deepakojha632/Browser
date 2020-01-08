@@ -1,0 +1,546 @@
+[
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toolbar_home.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_toolbar_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo_googleg_color_18dp.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\logo_googleg_color_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_addbookmark_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_addbookmark_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favicon.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\favicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_addbookmark.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_addbookmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listlayout_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\listlayout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_full_screen_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_full_screen_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_preferences.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_preferences.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\addbookmark.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\addbookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tabadd_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\tabadd_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noicon.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\noicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_close.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\history_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\history_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\forward_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\forward_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\search_.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_incognito_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_incognito_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_autofullscreen.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_autofullscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_bookmark_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_bookmark_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\history_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\history_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_back_normal.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\title_back_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_right.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_prev_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_prev_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_url.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\input_url.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_prev_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_prev_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_autofullscreen_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_autofullscreen_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\search_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_left.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_new_tab_white_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_new_tab_white_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inconito_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\inconito_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_refresh.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_navigation_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_navigation_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exitfullscrn_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\exitfullscrn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_btn_add_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\tab_btn_add_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_bookmark.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_bookmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\history.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\history.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\desktop.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\desktop.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_full_screen_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_full_screen_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_right_normal.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_right_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_exitfullscreen_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_exitfullscreen_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\t_normal.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\t_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_btn_add_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\tab_btn_add_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\back_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_refresh_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_refresh_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clearhistory_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\clearhistory_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exit_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\exit_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clearhistory_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\clearhistory_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\listitem_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\listitem_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_menu_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_menu_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_share_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_add_normal.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\title_add_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_next_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_next_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slider_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\slider_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\share_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_toolbar_reload.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_toolbar_reload.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_menu_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_menu_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_exit_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_exit_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_preferences_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_preferences_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_download.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_download.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\list_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\processing.gif",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\processing.gif"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_navigation_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_navigation_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stopload_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\stopload_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectedlist_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\selectedlist_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_cancel_all_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_cancel_all_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_refresh_press.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_refresh_press.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_home_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_home_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_refresh.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\titlebar_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_next_disable.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_next_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\desktop_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\desktop_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\desktop_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\desktop_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_home_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_home_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_tab.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\new_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_search_icon.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\title_search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_bookmark.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\add_bookmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clearhistory.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\clearhistory.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\t_selected.9.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\t_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fullscrn_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\fullscrn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_cancel_all.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_cancel_all.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_home_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_home_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_exit.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_exit.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\webprogress_head.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\webprogress_head.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\closetab_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\closetab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\menu_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_next_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_next_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_full_screen_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_full_screen_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_exitfullscreen.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_exitfullscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toolbar_btn_find_prev_normal.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\toolbar_btn_find_prev_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_incognito.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\ic_menu_incognito.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_tab_close_pressed.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\btn_tab_close_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\internet.png",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\internet.png"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg.xml",
+        "source": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\src\\main\\res\\drawable\\tab_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pushkar\\AndroidStudioProjects\\Web\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Pushkar\\.android\\build-cache\\ca9806302c3267c7820b3c330c6d7cdd25cf6f2b\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    }
+]

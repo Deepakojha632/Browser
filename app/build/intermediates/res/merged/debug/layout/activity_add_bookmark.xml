@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context="com.example.dark.Surfer.AddBookmark">
+
+    <TextView
+        android:id="@+id/bookmarkTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif-monospace"
+        android:text="Bookmark"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bookmarkTitle"
+        android:layout_marginTop="33dp"
+        android:text="Title"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/titleBox"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignBottom="@+id/title"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/title"
+        android:background="@drawable/input_url"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:hint="title"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/urlBox"
+        android:layout_alignEnd="@+id/title"
+        android:layout_alignRight="@+id/title"
+        android:text="URL"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/urlBox"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/titleBox"
+        android:layout_alignStart="@+id/titleBox"
+        android:layout_below="@+id/titleBox"
+        android:background="@drawable/input_url"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:hint="url"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/saveBookmark"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/url"
+        android:background="@drawable/add_bookmark" />
+
+    <ListView
+        android:id="@+id/bm_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveBookmark"
+        android:background="@drawable/listlayout_bg"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2sp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

@@ -325,9 +325,8 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             @Override
             public void onClick(View view) {
                 rl.setVisibility(rl.getVisibility() == VISIBLE ? GONE : VISIBLE);
-                if (rl.getVisibility() == VISIBLE) {
-                    rl.setAnimation(up);
-                } else {
+                if (rl.getVisibility() == VISIBLE) rl.setAnimation(up);
+                else {
                     rl.setAnimation(down);
                 }
             }
@@ -369,8 +368,8 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                     makeText(getApplicationContext(), "Reloading current page into desktop mode", Toast.LENGTH_SHORT).show();
                     wv.reload();
                     wv.getSettings().setUseWideViewPort(true);
-					setting.setLoadWithOverviewMode(true);
-					setting.setSupportZoom(true);
+                    wv.getSettings().setLoadWithOverviewMode(true);
+                    wv.getSettings().setSupportZoom(true);
                     //urlAdd.setText(wv.getUrl());
                 } else {
                     if (rl.getVisibility() == VISIBLE) {

@@ -6,7 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.support.v7.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat;
+//import android.support.v7.app.NotificationCompat;
 import android.widget.Toast;
 
 import static com.example.dark.Surfer.WebViewActivity.urlAdd;
@@ -68,6 +69,5 @@ public class ConnectionBroadReceiver extends BroadcastReceiver {
                 .getSystemService(Context.NOTIFICATION_SERVICE);
         // Build Notification with Notification Manager
         notificationmanager.notify(0, builder.build());
-
     }
 }

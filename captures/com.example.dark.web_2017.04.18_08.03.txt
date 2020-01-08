@@ -1,0 +1,51 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        42a3d170 Surfer/.MainActivity filter 42a52740
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        429497d0 Surfer/.TabActivity filter 429131a8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.net.conn.CONNECTIVITY_CHANGE:
+        429a5190 Surfer/.ConnectionBroadReceiver filter 429820f0
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+
+Key Set Manager:
+  [Surfer]
+      Signing KeySets: 4, 6
+
+Packages:
+  Package [Surfer] (42263680):
+    userId=10112 gids=[3003, 1028, 1015]
+    pkg=Package{42acf300 Surfer}
+    codePath=/data/app/Surfer-1.apk
+    resourcePath=/data/app/Surfer-1.apk
+    nativeLibraryPath=/data/app-lib/Surfer-1
+    versionCode=1 targetSdk=25
+    versionName=1.0
+    applicationInfo=ApplicationInfo{42acad28 Surfer}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    mtkFlags=[ ]
+    dataDir=/data/data/Surfer
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-04-18 07:59:43
+    firstInstallTime=2017-04-15 16:56:32
+    lastUpdateTime=2017-04-18 07:59:45
+    signatures=PackageSignatures{42263750 [422645e8]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true blocked=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS

@@ -1,0 +1,98 @@
+TASK Surfer id=181
+  ACTIVITY Surfer/.TabActivity 426c5040 pid=31801
+    Local Activity 41fc8bf0 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 405mcc876mnc en_US ldltr sw320dp w320dp h513dp 240dpi nrml long port finger -keyb/v/h -nav/h skin=/system/framework/framework-res.apk s.9 themeId=0}
+    FragmentManager misc state:
+      mActivity=Surfer.TabActivity@41fc8bf0
+      mContainer=android.app.Activity$1@41fc8d80
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=31322811 (241 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{41fc9f50 V.E..... R....... 0,0-480,800}
+        android.widget.LinearLayout{41fcb470 V.E..... ........ 0,0-480,800}
+          android.view.ViewStub{41fcea58 G.E..... ......I. 0,0-0,0 #1020318}
+          android.widget.FrameLayout{41fceea8 V.ED.... ........ 0,30-480,800 #1020002 android:id/content}
+            android.widget.TabHost{41fd0248 VFE..... ........ 0,0-480,770 #1020012 android:id/tabhost}
+              android.widget.LinearLayout{41fd0660 V.E..... ........ 0,0-480,770}
+                android.widget.LinearLayout{41fd0950 V.E..... ........ 0,0-480,60}
+                  android.widget.RelativeLayout{41fd0f18 V.E..... ........ 0,0-435,60 #7f0b0061 app:id/cont}
+                    android.widget.HorizontalScrollView{41fd1798 VFED.... ........ 0,0-179,60 #7f0b0062 app:id/hsv}
+                      android.widget.TabWidget{41fd25e8 VFE..... ........ 0,0-179,60 #1020013 android:id/tabs}
+                        android.widget.Button{41fdffc8 VFED..C. ..S..... 0,0-179,60 #7f0b00a6 app:id/btn_evnt}
+                  android.widget.LinearLayout{41fd9908 V.E..... ........ 435,15-480,60}
+                    android.widget.Button{41fd9dc8 VFED..C. ........ 0,0-45,45 #7f0b0063 app:id/add_tab}
+                android.widget.FrameLayout{41fdf528 V.E..... ........ 0,60-480,770 #1020011 android:id/tabcontent}
+                  com.android.internal.policy.impl.PhoneWindow$DecorView{41ffb0f0 VFE..... R....... 0,0-480,710}
+                    android.widget.LinearLayout{41ffb940 V.E..... ........ 0,0-480,710}
+                      android.view.ViewStub{41ffc640 G.E..... ......I. 0,0-0,0 #1020318}
+                      android.widget.FrameLayout{41ffc8c0 V.ED.... ........ 0,0-480,710 #1020002 android:id/content}
+                        android.widget.RelativeLayout{41ffd030 V.E..... ........ 0,0-480,710}
+                          android.widget.LinearLayout{41ffd4f8 V.E..... ........ 0,0-480,60 #7f0b0066 app:id/titleBar}
+                            android.widget.Space{41ffdbe8 I.ED.... ......I. 0,0-3,45}
+                            android.widget.EditText{41ffdf78 VFED..CL .F...... 3,0-198,53 #7f0b0067 app:id/urlAddr}
+                            android.widget.Button{42006d90 VFED..C. ........ 198,14-236,52 #7f0b0068 app:id/stopLoading}
+                            android.widget.Button{420146c8 VFED..C. ........ 236,10-281,55 #7f0b0069 app:id/go}
+                            android.widget.EditText{4205e668 VFED..CL ........ 281,0-431,53 #7f0b006a app:id/search}
+                            android.widget.Button{4205f808 VFED..C. ........ 431,10-476,55 #7f0b006b app:id/searchBtn}
+                            android.widget.Space{420601c0 I.ED.... ......I. 476,0-506,60}
+                          android.widget.ProgressBar{42060598 G.ED.... ......ID 0,60-480,69 #7f0b006c app:id/hpBar}
+                          android.widget.FrameLayout{42063480 V.E..... ........ 0,60-480,650 #7f0b006d app:id/fl}
+                            android.support.v4.widget.SwipeRefreshLayout{42064810 V.ED.... ........ 0,0-480,590 #7f0b005f app:id/srl}
+                              android.webkit.WebView{4206f130 VFED..C. ........ 0,0-480,590 #7f0b0060 app:id/wv}
+                              android.support.v4.widget.CircleImageView{42066068 G.ED.... ......ID 205,-60-275,10}
+                            android.widget.RelativeLayout{42080728 G.E...C. ......I. 0,0-0,0 #7f0b006f app:id/slider}
+                              android.widget.Space{42081340 I.ED.... ......I. 0,0-0,0 #7f0b0070 app:id/space}
+                              android.widget.Space{42081658 I.ED.... ......I. 0,0-0,0 #7f0b0071 app:id/space1}
+                              android.widget.Button{42081970 VFED..C. ......I. 0,0-0,0 #7f0b0072 app:id/bookmark}
+                              android.widget.Space{4208cf38 I.ED.... ......I. 0,0-0,0 #7f0b0073 app:id/space2}
+                              android.widget.TextView{4208d460 V.ED.... ......ID 0,0-0,0 #7f0b0074 app:id/tvBookmark}
+                              android.widget.Space{4208de08 I.ED.... ......I. 0,0-0,0 #7f0b0075 app:id/space3}
+                              android.widget.Button{4208e120 VFED..C. ......I. 0,0-0,0 #7f0b0076 app:id/history}
+                              android.widget.TextView{420d84f8 V.ED.... ......ID 0,0-0,0}
+                              android.widget.Space{420d8ab8 I.ED.... ......I. 0,0-0,0 #7f0b0077 app:id/space4}
+                              android.widget.CheckBox{420d8f48 VFED..C. ......ID 0,0-0,0 #7f0b0078 app:id/desktop}
+                              android.widget.TextView{420e5a68 V.ED.... ......ID 0,0-0,0}
+                              android.widget.Space{420e6028 I.ED.... ......I. 0,0-0,0 #7f0b0079 app:id/space5}
+                              android.widget.Button{420e6340 VFED..C. ......I. 0,0-0,0 #7f0b007a app:id/closeTab}
+                              android.widget.TextView{420e74c8 V.ED.... ......ID 0,0-0,0}
+                              android.widget.Space{420e7a88 I.ED.... ......I. 0,0-0,0 #7f0b007b app:id/space6}
+                              android.widget.CheckBox{420e7da0 VFED..C. ......ID 0,0-0,0 #7f0b007c app:id/inconito}
+                              android.widget.TextView{420f35b8 V.ED.... ......ID 0,0-0,0}
+                              android.widget.Space{420f3b78 I.ED.... ......I. 0,0-0,0 #7f0b007d app:id/space7}
+                              android.widget.Space{420f3e90 I.ED.... ......I. 0,0-0,0 #7f0b007e app:id/space8}
+                              android.widget.CheckBox{420f41a8 VFED..C. ......ID 0,0-0,0 #7f0b007f app:id/fullscrn}
+                              android.widget.TextView{42104b30 V.ED.... ......ID 0,0-0,0 #7f0b0080 app:id/tvFullscrn}
+                              android.widget.Space{421050f0 I.ED.... ......I. 0,0-0,0 #7f0b0081 app:id/space9}
+                              android.widget.Button{42105408 VFED..C. ......I. 0,0-0,0 #7f0b0082 app:id/shareUrl}
+                              android.widget.TextView{421109a0 V.ED.... ......ID 0,0-0,0 #7f0b0083 app:id/sharetextView}
+                              android.widget.Space{42110f60 I.ED.... ......I. 0,0-0,0 #7f0b0084 app:id/space10}
+                              android.widget.Space{42111320 I.ED.... ......I. 0,0-0,0 #7f0b0085 app:id/space11}
+                          android.widget.LinearLayout{42111678 V.E..... ........ 0,650-480,710 #7f0b006e app:id/ll}
+                            android.widget.Space{42111b80 I.ED.... ......I. 0,15-15,60}
+                            android.widget.Button{42111d98 VFED..C. ........ 15,0-75,60 #7f0b0086 app:id/back}
+                            android.widget.Space{4213d908 I.ED.... ......I. 75,15-105,60}
+                            android.widget.Button{4213db20 VFED..C. ........ 105,0-165,60 #7f0b0087 app:id/forward}
+                            android.widget.Space{42169698 I.ED.... ......I. 165,15-195,60}
+                            android.widget.Button{421698b0 VFED..C. ........ 195,0-285,60 #7f0b0088 app:id/menu}
+                            android.widget.Space{42184db8 I.ED.... ......I. 285,15-300,60}
+                            android.widget.Button{42184fd0 VFED..C. ........ 300,0-390,60 #7f0b0004 app:id/home}
+                            android.widget.Space{421a04d0 I.ED.... ......I. 390,15-405,60}
+                            android.widget.Button{421a06e8 VFED..C. ........ 405,7-450,52 #7f0b0089 app:id/exit}
+                            android.widget.Space{421ac180 I.ED.... ......I. 450,15-495,60}
+    Looper (main, tid 1) {41fbf408}
+      Message 0: { when=+240ms callback=android.widget.Editor$Blink target=android.widget.Editor$Blink callback=Handler (android.widget.Editor$Blink) {421b1608} target=Handler (android.widget.Editor$Blink) {421b1608} }
+      (Total messages: 1, idling=false, quitting=false)

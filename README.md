@@ -1,5 +1,5 @@
 # Brower
- It is a webview based android application. 
+ Implementation of browser using webview in android
  
  
  Created in May 2017

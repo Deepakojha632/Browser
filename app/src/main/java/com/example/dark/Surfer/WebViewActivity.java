@@ -64,13 +64,15 @@ import static android.widget.Toast.makeText;
  */
 public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRefreshListener, OnClickListener {
     private static final int PERMISSION_REQUEST_CODE = 1;
-    static WebView wv;
-    static EditText urlAdd, key;
+    WebView wv;
+    EditText urlAdd, key;
     boolean close = false;
     View decoder;
     Bundle bm;
     RelativeLayout rl;
-    SQLiteDatabase db;
+    private SQLiteDatabase db;
+    private Handler exitHandler;
+    private Runnable exitRunnable;
     CheckBox deskMode, incognito, fullscrn;
     Animation up, down;
     Button back, forward, slideMenu, home, exit, searchUrl, searchKey, shareUrl, stopLoad, bookmark, closeTab, history;
@@ -92,6 +94,13 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
         setContentView(R.layout.childtab);
 
         checkPermissions();
+
+        // Initialize the database
+        db = openOrCreateDatabase("Web.db", Context.MODE_PRIVATE, null);
+        db.execSQL("CREATE TABLE IF NOT EXISTS HISTORY(title varchar ,url varchar,time VARCHAR,PRIMARY KEY(url,time));");
+
+        // Initialize exitHandler
+        exitHandler = new Handler();
 
         wv = (WebView) findViewById(R.id.wv);
         rl = (RelativeLayout) findViewById(R.id.slider);
@@ -410,6 +419,32 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                         | SYSTEM_UI_FLAG_IMMERSIVE);
     }
 
+    @Override
+    protected void onDestroy() {
+        if (wv != null) {
+            wv.loadUrl("about:blank"); // Clear the content
+            wv.onPause();
+            wv.removeAllViews();
+            wv.destroyDrawingCache();
+            // For older Android versions, you might need to remove it from its parent first
+            // if (wv.getParent() != null) {
+            //     ((android.view.ViewGroup) wv.getParent()).removeView(wv);
+            // }
+            wv.destroy();
+            wv = null; // Nullify the reference
+        }
+        // Close the database
+        if (db != null && db.isOpen()) {
+            db.close();
+            db = null; // Nullify the reference
+        }
+        // Remove callbacks from exitHandler
+        if (exitHandler != null && exitRunnable != null) {
+            exitHandler.removeCallbacks(exitRunnable);
+        }
+        super.onDestroy();
+    }
+
     public boolean isConnected() throws Exception {
         ConnectivityManager cm = (ConnectivityManager) this.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
@@ -434,12 +469,13 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             } else {
                 Toast.makeText(getApplicationContext(), "Press back again to exit", Toast.LENGTH_SHORT).show();
                 close = true;
-                new Handler().postDelayed(new Runnable() {
+                exitRunnable = new Runnable() {
                     @Override
                     public void run() {
                         close = false;
                     }
-                }, 3 * 1000);
+                };
+                exitHandler.postDelayed(exitRunnable, 3 * 1000);
             }
         }
     }
@@ -675,8 +711,6 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                 try {
                     if (!incognito.isChecked() && !url.isEmpty() && !view.getTitle().isEmpty()) {
                         //creating database for storing history
-                        db = openOrCreateDatabase("Web.db", Context.MODE_PRIVATE, null);
-                        db.execSQL("CREATE TABLE IF NOT EXISTS HISTORY(title varchar ,url varchar,time VARCHAR,PRIMARY KEY(url,time));");
                         //Toast.makeText(getApplicationContext(), "Updating history", Toast.LENGTH_SHORT).show();
                         db.execSQL("INSERT INTO HISTORY VALUES('" + view.getTitle() + "','" + view.getUrl() + "','" + d.getHours() + d.getMinutes() + d.getSeconds() + "');");
                         //Toast.makeText(getApplicationContext(), "History updated", Toast.LENGTH_SHORT).show();

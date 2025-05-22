@@ -23,7 +23,7 @@ import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
-    static WebView wv;
+    WebView wv;
     SwipeRefreshLayout swipe;
     String url;
 
@@ -138,6 +138,23 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             startActivity(i);
         }
         return false;
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (wv != null) {
+            wv.loadUrl("about:blank"); // Clear the content
+            wv.onPause();
+            wv.removeAllViews();
+            wv.destroyDrawingCache();
+            // For older Android versions, you might need to remove it from its parent first
+            // if (wv.getParent() != null) {
+            //     ((android.view.ViewGroup) wv.getParent()).removeView(wv);
+            // }
+            wv.destroy();
+            wv = null; // Nullify the reference
+        }
+        super.onDestroy();
     }
 
     @Override

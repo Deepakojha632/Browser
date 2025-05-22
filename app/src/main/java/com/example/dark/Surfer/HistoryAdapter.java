@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Created by Pushkar on 14-Apr-17.
  */
@@ -62,7 +63,7 @@ public class HistoryAdapter extends ArrayAdapter {
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = layoutInflater.inflate(R.layout.history_item_list, parent, false);
             historyHolder = new HistoryHolder();
-            historyHolder.his_title = (TextView) row.findViewById(R.id.his_title);
+            historyHolder.his_title = row.findViewById(R.id.his_title);
             row.setTag(historyHolder);
         } else {
             historyHolder = (HistoryHolder) row.getTag();

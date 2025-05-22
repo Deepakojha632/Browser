@@ -35,15 +35,15 @@ public class AddBookmark extends AppCompatActivity implements View.OnClickListen
             imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         } catch (Exception e) {
         }
-        bm_list = (ListView) findViewById(R.id.bm_list);
+        bm_list = findViewById(R.id.bm_list);
         bm = getIntent().getExtras();
         title = bm.getString("TITLE");
         url = bm.getString("URL");
-        titleBox = (EditText) findViewById(R.id.titleBox);
-        urlBox = (EditText) findViewById(R.id.urlBox);
+        titleBox = findViewById(R.id.titleBox);
+        urlBox = findViewById(R.id.urlBox);
         titleBox.setText(title);
         urlBox.setText(url);
-        save = (Button) findViewById(R.id.saveBookmark);
+        save = findViewById(R.id.saveBookmark);
         db = openOrCreateDatabase("Web.db", Context.MODE_PRIVATE, null);
         db.execSQL("CREATE TABLE IF NOT EXISTS BOOKMARK(title varchar,url varchar,PRIMARY KEY(url));");
         save.setOnClickListener(this);
@@ -64,7 +64,7 @@ public class AddBookmark extends AppCompatActivity implements View.OnClickListen
                 Cursor c = db.rawQuery("SELECT * from BOOKMARK WHERE url='" + urlBox.getText() + "';", null);
                 c.moveToLast();
                 tempLink = c.getString(1);
-                if (tempLink.toString().equals(urlBox.getText().toString()) && !(titleBox.getText().toString().equals(c.getString(0)))) {
+                if (tempLink.equals(urlBox.getText().toString()) && !(titleBox.getText().toString().equals(c.getString(0)))) {
                     c.close();
                     Toast.makeText(getApplicationContext(), "Tez bantae hiya re NULLA", Toast.LENGTH_SHORT).show();
                 } else {
@@ -93,7 +93,7 @@ public class AddBookmark extends AppCompatActivity implements View.OnClickListen
             bookMarkAdapter.clear();
             Cursor cursor = db.rawQuery(query, null);
             cursor.moveToLast();
-            while (cursor.isBeforeFirst() == false) {
+            while (!cursor.isBeforeFirst()) {
                 BookMarkItem bookMarkItem = new BookMarkItem(cursor.getString(0), cursor.getString(1));
                 bookMarkAdapter.add(bookMarkItem);
                 cursor.moveToPrevious();
@@ -115,8 +115,8 @@ public class AddBookmark extends AppCompatActivity implements View.OnClickListen
                     try {
                         if (link != null) {
                             Toast.makeText(getApplicationContext(), "opening " + title, Toast.LENGTH_SHORT).show();
-                            WebViewActivity.wv.loadUrl(link);
-                            WebViewActivity.urlAdd.setText(link);
+//                            WebViewActivity.wv.loadUrl(link);
+//                            WebViewActivity.urlAdd.setText(link);
                         }
                     } catch (Exception e) {
                         Log.v("exception", e.getMessage());

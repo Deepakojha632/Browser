@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+
 public class History extends AppCompatActivity {
     Cursor c;
     SQLiteDatabase db;
@@ -24,17 +25,16 @@ public class History extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
 
-        his_list = (ListView) findViewById(R.id.history_list);
-        clearHistory = (Button) findViewById(R.id.clearHistory);
+        his_list = findViewById(R.id.history_list);
+        clearHistory = findViewById(R.id.clearHistory);
         Context context = getApplicationContext();
-        db = openOrCreateDatabase("Web.db", context.MODE_PRIVATE, null);
+        db = openOrCreateDatabase("Web.db", MODE_PRIVATE, null);
         Toast.makeText(getApplicationContext(), "database found", Toast.LENGTH_SHORT).show();
         historyAdapter = new HistoryAdapter(this, R.layout.activity_history);
         clearHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                WebViewActivity.wv.clearHistory();
-                String query = null;
+                String query;
                 query = "Drop table HISTORY;";
                 try {
                     db.execSQL(query);
@@ -60,18 +60,17 @@ public class History extends AppCompatActivity {
         super.onStart();
         //Toast.makeText(getApplicationContext(), "Retrieving History from database", Toast.LENGTH_SHORT).show();
         db = openOrCreateDatabase("Web.db", Context.MODE_PRIVATE, null);
-        try{
-            String q="SELECT * FROM HISTORY;";
-            Cursor c=db.rawQuery(q,null);
+        try {
+            String q = "SELECT * FROM HISTORY;";
+            Cursor c = db.rawQuery(q, null);
             c.close();
             historyList();
-        }
-        catch (Exception e){
-        db.execSQL("CREATE TABLE IF NOT EXISTS HISTORY(title varchar ,url varchar,time VARCHAR,PRIMARY KEY(url,time));");
-        //historyList();
+        } catch (Exception e) {
+            db.execSQL("CREATE TABLE IF NOT EXISTS HISTORY(title varchar ,url varchar,time VARCHAR,PRIMARY KEY(url,time));");
+            //historyList();
         }
 
-       // Toast.makeText(getApplicationContext(), "History retrieved", Toast.LENGTH_SHORT).show();
+        // Toast.makeText(getApplicationContext(), "History retrieved", Toast.LENGTH_SHORT).show();
     }
 
     public void historyList() {
@@ -85,7 +84,7 @@ public class History extends AppCompatActivity {
             historyAdapter.clear();
             c = db.rawQuery(query, null);
             c.moveToFirst();
-            while (c.isAfterLast() == false) {
+            while (!c.isAfterLast()) {
                 HistoryItem histItem = new HistoryItem(c.getString(0), c.getString(1));
                 historyAdapter.add(histItem);
                 c.moveToNext();
@@ -107,8 +106,8 @@ public class History extends AppCompatActivity {
                     try {
                         if (url != null) {
                             Toast.makeText(getApplicationContext(), "opening" + title, Toast.LENGTH_SHORT).show();
-                            WebViewActivity.wv.loadUrl(url);
-                            WebViewActivity.urlAdd.setText(url);
+//                            WebViewActivity.wv.loadUrl(url);
+//                            WebViewActivity.urlAdd.setText(url);
                         }
                     } catch (Exception e) {
                         Log.v("exception", e.getMessage());

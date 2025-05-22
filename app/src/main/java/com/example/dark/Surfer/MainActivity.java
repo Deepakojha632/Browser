@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
 
-        wv = (WebView) findViewById(R.id.wv);
-        swipe = (SwipeRefreshLayout) findViewById(R.id.srl);
+        wv = findViewById(R.id.wv);
+        swipe = findViewById(R.id.srl);
         swipe.setOnRefreshListener(this);
         swipe.setColorSchemeColors(getResources().getColor(R.color.colorAccent), getResources().getColor(R.color.colorPrimary), getResources().getColor(R.color.colorPrimaryDark));
         wv.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         wv.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         wv.getSettings().getCacheMode();
         wv.getSettings().setUseWideViewPort(true);
-        wv.getSettings().setAppCacheEnabled(true);
         wv.getSettings().setDomStorageEnabled(true);
         wv.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
         wv.getSettings().setSaveFormData(true);

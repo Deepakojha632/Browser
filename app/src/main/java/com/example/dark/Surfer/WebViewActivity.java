@@ -1,5 +1,13 @@
 package com.example.dark.Surfer;
 
+import static android.content.ContentValues.TAG;
+import static android.view.View.FOCUS_DOWN;
+import static android.view.View.FOCUS_UP;
+import static android.view.View.GONE;
+import static android.view.View.OnClickListener;
+import static android.view.View.VISIBLE;
+import static android.widget.Toast.makeText;
+
 import android.Manifest;
 import android.app.Activity;
 import android.app.DownloadManager;
@@ -45,19 +53,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import static android.content.ContentValues.TAG;
-import static android.view.View.FOCUS_DOWN;
-import static android.view.View.FOCUS_UP;
-import static android.view.View.GONE;
-import static android.view.View.OnClickListener;
-import static android.view.View.SYSTEM_UI_FLAG_FULLSCREEN;
-import static android.view.View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
-import static android.view.View.SYSTEM_UI_FLAG_IMMERSIVE;
-import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN;
-import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION;
-import static android.view.View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
-import static android.view.View.VISIBLE;
-import static android.widget.Toast.makeText;
 
 /**
  * Created by DARK on 01-01-2002.
@@ -70,9 +65,6 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
     View decoder;
     Bundle bm;
     RelativeLayout rl;
-    private SQLiteDatabase db;
-    private Handler exitHandler;
-    private Runnable exitRunnable;
     CheckBox deskMode, incognito, fullscrn;
     Animation up, down;
     Button back, forward, slideMenu, home, exit, searchUrl, searchKey, shareUrl, stopLoad, bookmark, closeTab, history;
@@ -87,6 +79,9 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             Manifest.permission.VIBRATE,
             Manifest.permission.RECORD_AUDIO,
     };
+    private SQLiteDatabase db;
+    private Handler exitHandler;
+    private Runnable exitRunnable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,27 +97,27 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
         // Initialize exitHandler
         exitHandler = new Handler();
 
-        wv = (WebView) findViewById(R.id.wv);
-        rl = (RelativeLayout) findViewById(R.id.slider);
-        deskMode = (CheckBox) findViewById(R.id.desktop);
-        closeTab = (Button) findViewById(R.id.closeTab);
-        bookmark = (Button) findViewById(R.id.bookmark);
-        fullscrn = (CheckBox) findViewById(R.id.fullscrn);
-        history = (Button) findViewById(R.id.history);
-        incognito = (CheckBox) findViewById(R.id.inconito);
-        shareUrl = (Button) findViewById(R.id.shareUrl);
-        swipe = (SwipeRefreshLayout) findViewById(R.id.srl);
-        pBar = (ProgressBar) findViewById(R.id.hpBar);
-        urlAdd = (EditText) findViewById(R.id.urlAddr);
-        key = (EditText) findViewById(R.id.search);
-        back = (Button) findViewById(R.id.back);
-        forward = (Button) findViewById(R.id.forward);
-        slideMenu = (Button) findViewById(R.id.menu);
-        home = (Button) findViewById(R.id.home);
-        exit = (Button) findViewById(R.id.exit);
-        searchUrl = (Button) findViewById(R.id.go);
-        searchKey = (Button) findViewById(R.id.searchBtn);
-        stopLoad = (Button) findViewById(R.id.stopLoading);
+        wv = findViewById(R.id.wv);
+        rl = findViewById(R.id.slider);
+        deskMode = findViewById(R.id.desktop);
+        closeTab = findViewById(R.id.closeTab);
+        bookmark = findViewById(R.id.bookmark);
+        fullscrn = findViewById(R.id.fullscrn);
+        history = findViewById(R.id.history);
+        incognito = findViewById(R.id.inconito);
+        shareUrl = findViewById(R.id.shareUrl);
+        swipe = findViewById(R.id.srl);
+        pBar = findViewById(R.id.hpBar);
+        urlAdd = findViewById(R.id.urlAddr);
+        key = findViewById(R.id.search);
+        back = findViewById(R.id.back);
+        forward = findViewById(R.id.forward);
+        slideMenu = findViewById(R.id.menu);
+        home = findViewById(R.id.home);
+        exit = findViewById(R.id.exit);
+        searchUrl = findViewById(R.id.go);
+        searchKey = findViewById(R.id.searchBtn);
+        stopLoad = findViewById(R.id.stopLoading);
 
         shareUrl.setOnClickListener(this);
         closeTab.setOnClickListener(this);
@@ -246,7 +241,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                 super.onReceivedError(view, errorCode, description, failingUrl);
                 try {
                     if (!isConnected()) {
-                        if (loading == true)
+                        if (loading)
                             wv.loadUrl("file:///android_asset/Web/index.html");
                         //urlAdd.setText(wv.getUrl());
                         Toast.makeText(getApplicationContext(), "Network not available", Toast.LENGTH_SHORT).show();
@@ -297,8 +292,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                     CookieManager.getInstance().setAcceptCookie(false);
 
                     //Make sure no caching is done
-                    wv.getSettings().setCacheMode(wv.getSettings().LOAD_NO_CACHE);
-                    wv.getSettings().setAppCacheEnabled(false);
+                    wv.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
                     wv.clearHistory();
                     wv.clearCache(true);
 
@@ -317,8 +311,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                     CookieManager.getInstance().setAcceptCookie(true);
 
                     //Make sure no caching is done
-                    wv.getSettings().setCacheMode(wv.getSettings().LOAD_CACHE_ELSE_NETWORK);
-                    wv.getSettings().setAppCacheEnabled(true);
+                    wv.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
                     wv.clearCache(false);
 
                     //Make sure no autofill for Forms/ user-name password happens for the app
@@ -345,7 +338,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (fullscrn.isChecked()) {
-                    hideSystemUi();
+//                    hideSystemUi();
                     if (rl.getVisibility() == VISIBLE) {
                         rl.setAnimation(down);
                         rl.setVisibility(GONE);
@@ -353,7 +346,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
                     }
 
                 } else {
-                    showSystemUI();
+//                    showSystemUI();
                     if (rl.getVisibility() == VISIBLE) {
                         rl.setAnimation(down);
                         rl.setVisibility(GONE);
@@ -363,61 +356,58 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             }
         });
 
-        deskMode.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (deskMode.isChecked()) {
-                    if (rl.getVisibility() == VISIBLE) {
-                        rl.setAnimation(down);
-                        rl.setVisibility(GONE);
-                        //urlAdd.setText(wv.getUrl());
-                    }
-                    makeText(getApplicationContext(), "Switched to desktop mode", Toast.LENGTH_SHORT).show();
-                    wv.getSettings().setUserAgentString("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12");
-                    makeText(getApplicationContext(), "Reloading current page into desktop mode", Toast.LENGTH_SHORT).show();
-                    wv.reload();
-                    wv.getSettings().setUseWideViewPort(true);
-                    wv.getSettings().setLoadWithOverviewMode(true);
-                    wv.getSettings().setSupportZoom(true);
+        deskMode.setOnCheckedChangeListener((compoundButton, b) -> {
+            if (deskMode.isChecked()) {
+                if (rl.getVisibility() == VISIBLE) {
+                    rl.setAnimation(down);
+                    rl.setVisibility(GONE);
                     //urlAdd.setText(wv.getUrl());
-                } else {
-                    if (rl.getVisibility() == VISIBLE) {
-                        rl.setAnimation(down);
-                        rl.setVisibility(GONE);
-                        //urlAdd.setText(wv.getUrl());
-                    }
-                    wv.clearCache(true);
-                    makeText(getApplicationContext(), "Switched to mobile mode", Toast.LENGTH_SHORT).show();
-                    wv.getSettings().setUserAgentString("Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36");
-                    makeText(getApplicationContext(), "Reloading current page into mobile mode", Toast.LENGTH_SHORT).show();
-                    wv.reload();
-                    urlAdd.setText(wv.getUrl());
                 }
+                makeText(getApplicationContext(), "Switched to desktop mode", Toast.LENGTH_SHORT).show();
+                wv.getSettings().setUserAgentString("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12");
+                makeText(getApplicationContext(), "Reloading current page into desktop mode", Toast.LENGTH_SHORT).show();
+                wv.reload();
+                wv.getSettings().setUseWideViewPort(true);
+                wv.getSettings().setLoadWithOverviewMode(true);
+                wv.getSettings().setSupportZoom(true);
+                //urlAdd.setText(wv.getUrl());
+            } else {
+                if (rl.getVisibility() == VISIBLE) {
+                    rl.setAnimation(down);
+                    rl.setVisibility(GONE);
+                    //urlAdd.setText(wv.getUrl());
+                }
+                wv.clearCache(true);
+                makeText(getApplicationContext(), "Switched to mobile mode", Toast.LENGTH_SHORT).show();
+                wv.getSettings().setUserAgentString("Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36");
+                makeText(getApplicationContext(), "Reloading current page into mobile mode", Toast.LENGTH_SHORT).show();
+                wv.reload();
+                urlAdd.setText(wv.getUrl());
             }
         });
     }
 
-    private void showSystemUI() {
-        decoder = getWindow().getDecorView();
-        decoder.setSystemUiVisibility(
-                SYSTEM_UI_FLAG_LAYOUT_STABLE
-                        | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                        | SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
-    }
-
-    private void hideSystemUi() {
-        // Set the IMMERSIVE flag.
-        // Set the content to appear under the system bars so that the content
-        // doesn't resize when the system bars hide and show.
-        decoder = getWindow().getDecorView();
-        decoder.setSystemUiVisibility(
-                SYSTEM_UI_FLAG_LAYOUT_STABLE
-                        | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                        | SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                        | SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
-                        | SYSTEM_UI_FLAG_FULLSCREEN // hide status bar
-                        | SYSTEM_UI_FLAG_IMMERSIVE);
-    }
+//    private void showSystemUI() {
+//        decoder = getWindow().getDecorView();
+//        decoder.setSystemUiVisibility(
+//                SYSTEM_UI_FLAG_LAYOUT_STABLE
+//                        | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+//                        | SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+//    }
+//
+//    private void hideSystemUi() {
+//        // Set the IMMERSIVE flag.
+//        // Set the content to appear under the system bars so that the content
+//        // doesn't resize when the system bars hide and show.
+//        decoder = getWindow().getDecorView();
+//        decoder.setSystemUiVisibility(
+//                SYSTEM_UI_FLAG_LAYOUT_STABLE
+//                        | SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+//                        | SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+//                        | SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
+//                        | SYSTEM_UI_FLAG_FULLSCREEN // hide status bar
+//                        | SYSTEM_UI_FLAG_IMMERSIVE);
+//    }
 
     @Override
     protected void onDestroy() {
@@ -427,9 +417,9 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             wv.removeAllViews();
             wv.destroyDrawingCache();
             // For older Android versions, you might need to remove it from its parent first
-            // if (wv.getParent() != null) {
-            //     ((android.view.ViewGroup) wv.getParent()).removeView(wv);
-            // }
+            if (wv.getParent() != null) {
+                ((android.view.ViewGroup) wv.getParent()).removeView(wv);
+            }
             wv.destroy();
             wv = null; // Nullify the reference
         }
@@ -657,14 +647,13 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[],
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
                                            int[] grantResults) {
         if (requestCode == 100) {
             if (grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // do something
             }
-            return;
         }
     }
 
@@ -697,7 +686,7 @@ public class WebViewActivity extends Activity implements SwipeRefreshLayout.OnRe
             wv.loadUrl(newUrl);
             urlAdd.setText(wv.getUrl());
         } catch (Exception e) {
-            Log.v("add Url", "" + e.toString());
+            Log.v("add Url", String.valueOf(e));
         }
     }
 

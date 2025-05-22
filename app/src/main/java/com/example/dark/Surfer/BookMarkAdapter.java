@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * Created by Pushkar on 10-Apr-17.
  */
@@ -60,7 +61,7 @@ public class BookMarkAdapter extends ArrayAdapter {
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = layoutInflater.inflate(R.layout.bookmark_item_list, parent, false);
             bookMarkHolder = new BookMarkHolder();
-            bookMarkHolder.bm_title = (TextView) row.findViewById(R.id.bm_title);
+            bookMarkHolder.bm_title = row.findViewById(R.id.bm_title);
             row.setTag(bookMarkHolder);
         } else {
             bookMarkHolder = (BookMarkHolder) row.getTag();

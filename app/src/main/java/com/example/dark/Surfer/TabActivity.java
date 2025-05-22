@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TabHost;
 
-import static com.example.dark.Surfer.R.layout.activity_tab;
-
 public class TabActivity extends android.app.TabActivity {
     private static int tabIndex = 1;
     Button btn;
@@ -17,15 +15,12 @@ public class TabActivity extends android.app.TabActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(activity_tab);
+        setContentView(R.layout.activity_tab);
         tabHost = getTabHost();
-        btn = (Button) findViewById(R.id.add_tab);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ++tabIndex;
-                add();
-            }
+        btn = findViewById(R.id.add_tab);
+        btn.setOnClickListener(view -> {
+            ++tabIndex;
+            add();
         });
         add();
     }
